@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b124daab-2274-45a3-a0a1-32834de88550" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/visualzation/visual_all_feature.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/vision_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/visual_featuremaps.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualzation/visual_featuremaps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/visual_all_feature.py" beforeDir="false" afterPath="$PROJECT_DIR$/visualzation/visual_all_feature.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,13 +19,14 @@
     <SUITE FILE_PATH="coverage/pytorch_classification$pytest_in_mobilenet_py.coverage" NAME="pytest in mobilenet.py Coverage Results" MODIFIED="1563518878533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/pytorch_classification$pytest_for_shufflenet_test.coverage" NAME="pytest for shufflenet.test Coverage Results" MODIFIED="1563518916770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/pytorch_classification$vgg_test.coverage" NAME="vgg_test Coverage Results" MODIFIED="1564553530476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
-    <SUITE FILE_PATH="coverage/pytorch_classification$visual_featuremaps.coverage" NAME="visual_featuremaps Coverage Results" MODIFIED="1564646406018" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualzation" />
+    <SUITE FILE_PATH="coverage/pytorch_classification$visual_featuremaps.coverage" NAME="visual_featuremaps Coverage Results" MODIFIED="1564650477010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualzation" />
     <SUITE FILE_PATH="coverage/pytorch_classification$SILC.coverage" NAME="SILC Coverage Results" MODIFIED="1564035184031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch_classification$pytest_for_test_test.coverage" NAME="pytest for test.test Coverage Results" MODIFIED="1564017256226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch_classification$visual_weights.coverage" NAME="visual_weights Coverage Results" MODIFIED="1564560902024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualzation" />
     <SUITE FILE_PATH="coverage/pytorch_classification$pytest_in_shufflenet_py.coverage" NAME="pytest in shufflenet.py Coverage Results" MODIFIED="1563518892923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/pytorch_classification$pytest_for_main_test.coverage" NAME="pytest for main.test Coverage Results" MODIFIED="1563849209185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch_classification$vision_main.coverage" NAME="vision_main Coverage Results" MODIFIED="1564632164805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pytorch_classification$visual_all_feature.coverage" NAME="visual_all_feature Coverage Results" MODIFIED="1564650910237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualzation" />
     <SUITE FILE_PATH="coverage/pytorch_classification$data_presess__1_.coverage" NAME="data_presess (1) Coverage Results" MODIFIED="1563849917523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/pytorch_classification$data_count.coverage" NAME="data_count Coverage Results" MODIFIED="1564371277190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch_classification$pytest_in_test_py.coverage" NAME="pytest in test.py Coverage Results" MODIFIED="1564017267569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -51,7 +49,7 @@
     <session id="348218489">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="3" />
@@ -61,14 +59,15 @@
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="17" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="_bootstrap&gt;" value="2" />
-          <entry key="py" value="164" />
+          <entry key="py" value="166" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
@@ -76,20 +75,20 @@
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
           <entry key="PyRemoteDebug" value="2" />
-          <entry key="Python" value="164" />
+          <entry key="Python" value="166" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="21" />
-          <entry key="py" value="4794" />
-          <entry key="txt" value="2" />
+          <entry key="py" value="4998" />
+          <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Python" value="4794" />
+          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="Python" value="4998" />
         </counts>
       </usages-collector>
     </session>
@@ -99,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visualzation/visual_featuremaps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="122" column="22" lean-forward="true" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
+            <state relative-caret-position="404">
+              <caret line="128" column="16" lean-forward="true" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
               <folding>
                 <element signature="e#24#42#0" expanded="true" />
               </folding>
@@ -111,8 +110,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/visualzation/visual_all_feature.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="2225">
+              <caret line="89" column="9" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="9" />
+              <folding>
+                <element signature="e#48#59#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1576572909/torch/_C/_TensorBase.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85250">
+              <caret line="3418" column="8" selection-start-line="3418" selection-start-column="8" selection-end-line="3418" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/utils/data/dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -120,7 +143,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/matplotlib/pyplot.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="47311">
+            <state relative-caret-position="51575">
               <caret line="2112" column="4" selection-start-line="2112" selection-start-column="4" selection-end-line="2112" selection-end-column="4" />
             </state>
           </provider>
@@ -129,8 +152,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/visualzation/visual_weights.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="40" />
+            <state relative-caret-position="1500">
+              <caret line="64" column="93" selection-start-line="64" selection-start-column="91" selection-end-line="64" selection-end-column="93" />
               <folding>
                 <element signature="e#24#36#0" expanded="true" />
               </folding>
@@ -141,7 +164,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/matplotlib/image.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="831">
+            <state relative-caret-position="16625">
               <caret line="689" selection-start-line="689" selection-end-line="689" />
             </state>
           </provider>
@@ -150,7 +173,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/-703477092/multiprocessing/popen_forkserver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="475">
               <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
             </state>
           </provider>
@@ -159,17 +182,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/-703477092/multiprocessing/forkserver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="800">
               <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/tensor.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="659">
-              <caret line="457" selection-start-line="457" selection-end-line="457" />
             </state>
           </provider>
         </entry>
@@ -177,22 +191,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1075">
+            <state relative-caret-position="100">
               <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vision_main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-282">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding>
-                <element signature="e#24#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -219,6 +221,7 @@
       <find>io</find>
       <find>&gt;&gt; &gt;</find>
       <find>hsv</find>
+      <find>cat</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -331,29 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.visual_featuremaps">
-    <configuration name="draw_roi_label" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pytorch-classification" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="J:\Project Station\pytorch-classification\utils\draw_roi_label.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.visual_all_feature">
     <configuration name="vgg_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pytorch-classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -390,6 +371,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/vision_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="visual_all_feature" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytorch-classification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/visualzation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/visualzation/visual_all_feature.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -460,19 +463,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in original_main.py" />
-      <item itemvalue="Python.draw_roi_label" />
       <item itemvalue="Python.vgg_test" />
       <item itemvalue="Python.visual_weights" />
       <item itemvalue="Python.visual_featuremaps" />
       <item itemvalue="Python.vision_main" />
+      <item itemvalue="Python.visual_all_feature" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.visual_all_feature" />
         <item itemvalue="Python.visual_featuremaps" />
         <item itemvalue="Python.vision_main" />
         <item itemvalue="Python.visual_weights" />
         <item itemvalue="Python.vgg_test" />
-        <item itemvalue="Python.draw_roi_label" />
       </list>
     </recent_temporary>
   </component>
@@ -487,6 +490,21 @@
       <option name="presentableId" value="Default" />
       <updated>1563517270054</updated>
     </task>
+    <task id="LOCAL-00001" summary="change">
+      <created>1564646982503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1564646982504</updated>
+    </task>
+    <task id="LOCAL-00002" summary="change">
+      <created>1564647040162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1564647040162</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -532,23 +550,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21321961" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2153518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.17168339" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.19732441" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.17168339" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3779264" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32887402" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="File Transfer" order="8" weight="0.14827202" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32962137" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32887402" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.18708241" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32962137" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32887402" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.26726058" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -591,6 +610,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -628,6 +651,16 @@
           <url>file://$PROJECT_DIR$/models/vgg_test.py</url>
           <line>37</line>
           <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/visualzation/visual_all_feature.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/visualzation/visual_all_feature.py</url>
+          <line>67</line>
+          <option name="timeStamp" value="53" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -699,16 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/utils/data/dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/optim/optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
@@ -720,9 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2975">
           <caret line="119" column="31" lean-forward="true" selection-start-line="119" selection-start-column="31" selection-end-line="119" selection-end-column="31" />
-          <folding>
-            <element signature="e#222#231#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -792,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1576572909/torch/_C/_TensorBase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-577">
-          <caret line="3458" column="8" selection-start-line="3458" selection-start-column="8" selection-end-line="3458" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visualzation/visual.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -808,11 +821,7 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/detection/faster_rcnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7727">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-7727" />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/detection/__init__.py">
@@ -836,20 +845,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-250">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="e#33#42#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/segmentation/deeplabv3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/segmentation/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -886,20 +886,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-362">
           <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
-          <folding>
-            <element signature="e#72#84#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/ops/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/detection/keypoint_rcnn.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -950,9 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-282">
           <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -963,9 +951,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1576572909/torch/_C/_TensorBase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85250">
+          <caret line="3418" column="8" selection-start-line="3418" selection-start-column="8" selection-end-line="3418" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/utils/data/dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/matplotlib/pyplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51575">
+          <caret line="2112" column="4" selection-start-line="2112" selection-start-column="4" selection-end-line="2112" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/visualzation/visual_weights.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="64" column="93" selection-start-line="64" selection-start-column="91" selection-end-line="64" selection-end-column="93" />
+          <folding>
+            <element signature="e#24#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/matplotlib/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16625">
+          <caret line="689" selection-start-line="689" selection-end-line="689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/-703477092/multiprocessing/popen_forkserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/-703477092/multiprocessing/forkserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1075">
+        <state relative-caret-position="100">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
@@ -973,48 +1016,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/matplotlib/image.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="831">
-          <caret line="689" selection-start-line="689" selection-end-line="689" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/-703477092/multiprocessing/popen_forkserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/-703477092/multiprocessing/forkserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="47" column="8" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualzation/visual_weights.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="63" column="28" lean-forward="true" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="40" />
-          <folding>
-            <element signature="e#24#36#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/matplotlib/pyplot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47311">
-          <caret line="2112" column="4" selection-start-line="2112" selection-start-column="4" selection-end-line="2112" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/visualzation/visual_featuremaps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="122" column="22" lean-forward="true" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
+        <state relative-caret-position="404">
+          <caret line="128" column="16" lean-forward="true" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
           <folding>
             <element signature="e#24#42#0" expanded="true" />
           </folding>
@@ -1023,8 +1028,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/visualzation/visual_all_feature.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="2225">
+          <caret line="89" column="9" selection-start-line="89" selection-start-column="6" selection-end-line="89" selection-end-column="9" />
+          <folding>
+            <element signature="e#48#59#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
