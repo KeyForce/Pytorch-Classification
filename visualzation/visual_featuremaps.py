@@ -9,7 +9,7 @@ from PIL import Image
 from tensorboardX import SummaryWriter
 from torch.utils.data import DataLoader
 from torch.utils.data import Dataset
-
+import matplotlib.pyplot as plt
 
 class Net(nn.Module):
     def __init__(self):
@@ -119,6 +119,10 @@ for name, layer in net._modules.items():
     if name == vis_layer:
         # 绘制feature maps
         x1 = x.transpose(0, 1)  # C，B, H, W  ---> B，C, H, W
+        plt.imshow(x1[2, 0, :, :].detach().numpy(), cmap="hot")
+        plt.colorbar()
+        plt.show()
+        heatmap = x1[2, 0, :, :].detach().numpy()
         img_grid = vutils.make_grid(x1, normalize=True, scale_each=True, nrow=2)  # B，C, H, W
         writer.add_image(vis_layer + '_feature_maps', img_grid)
 
