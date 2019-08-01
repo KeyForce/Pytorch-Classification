@@ -26,11 +26,22 @@ class Net(nn.Module):
     def forward(self, x):
         x = self.conv1(x)
         draw_features(2, 3, x.cpu().detach().numpy(), "{}/f1_conv1.png".format('./heatmat'))
+
         x = F.relu(x)
         draw_features(2, 3, x.cpu().detach().numpy(), "{}/f1_relu1.png".format('./heatmat'))
+
         x = self.pool1(x)
         draw_features(2, 3, x.cpu().detach().numpy(), "{}/f1_pool1.png".format('./heatmat'))
-        x = self.pool2(F.relu(self.conv2(x)))
+
+        x = self.conv2(x)
+        draw_features(4, 4, x.cpu().detach().numpy(), "{}/f1_conv2.png".format('./heatmat'))
+
+        x = F.relu(x)
+        draw_features(4, 4, x.cpu().detach().numpy(), "{}/f1_relu2.png".format('./heatmat'))
+
+        x = self.pool2(x)
+        draw_features(4, 4, x.cpu().detach().numpy(), "{}/f1_pool2.png".format('./heatmat'))
+
         x = x.view(-1, 16 * 5 * 5)
         x = F.relu(self.fc1(x))
         x = F.relu(self.fc2(x))
@@ -53,6 +64,14 @@ class Net(nn.Module):
 
 
 def draw_features(width, height, x, savename):
+    """
+    画出heatmap，width*heigh = channel
+    :param width: matplot的列
+    :param height: matplot的行
+    :param x: 经过运算的数据
+    :param savename: 保存位置
+    :return: 无
+    """
     tic = time.time()
     fig = plt.figure(figsize=(16, 16))
     fig.subplots_adjust(left=0.05, right=0.95, bottom=0.05, top=0.95, wspace=0.05, hspace=0.05)
