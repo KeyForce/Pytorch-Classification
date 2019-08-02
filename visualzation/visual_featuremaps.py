@@ -98,6 +98,7 @@ testTransform = transforms.Compose([
 ])
 # 载入数据
 test_data = MyDataset(txt_path=txt_path, transform=testTransform)
+print(test_data)
 test_loader = DataLoader(dataset=test_data, batch_size=1)
 img, label = iter(test_loader).next()
 
