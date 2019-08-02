@@ -4,6 +4,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 from tensorboardX import SummaryWriter
 from torch.autograd import Variable
+from torchviz import make_dot, make_dot_from_trace
+
 
 class Net(nn.Module):
     def __init__(self):
@@ -51,6 +53,16 @@ if __name__ == '__main__':
     net = Net()
     net.eval()
     x = Variable(torch.randn(1, 3, 32, 32))
-    writer = SummaryWriter('./heatmap')
-    writer.add_graph(net, x)
-    writer.close()
+    # writer = SummaryWriter('./heatmap')
+    # writer.add_graph(net, x)
+    # writer.close()
+
+    # dot = make_dot(net(x), params=dict(net.named_parameters()))
+    # dot.format = 'png'
+    # dot.render()
+
+    # with torch.onnx.set_training(net, False):
+    #     trace, _ = torch.jit.get_trace_graph(net, args=(x,))
+    # do = make_dot_from_trace(trace)
+    # do.format = 'png'
+    # do.render()
