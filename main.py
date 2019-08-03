@@ -77,7 +77,7 @@ testloader = DataLoader(dataset=test_data, batch_size=8)
 
 
 
-# Model
+# 网络
 print('==> Building model..')
 # net = VGG('VGG19')
 # net = ResNet18()
@@ -102,7 +102,7 @@ if device == 'cuda':
     cudnn.benchmark = True
 
 if args.resume:
-    # Load checkpoint.
+    # 加载 checkpoint.
     print('==> Resuming from checkpoint..')
     assert os.path.isdir('checkpoint'), 'Error: no checkpoint directory found!'
     checkpoint = torch.load('./checkpoint/ckpt.pth')
