@@ -1,14 +1,16 @@
 # -*- coding: utf-8 -*-
-import json
-from collections import OrderedDict
-from torch.autograd import Variable
+import numpy as np
 
 import torch
+import torch.nn.functional as F
 import torch.nn as nn
-from fastai.vision import *
+from collections import OrderedDict
+from torch.utils.data import DataLoader
+from torch.utils.data.dataset import TensorDataset
+
 from fastai import *
-import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+from fastai.vision import *
+
 
 def make_layers(block, no_relu_layers):
     layers = []
@@ -103,58 +105,38 @@ class handpose_model(nn.Module):
         return out_stage6
 
 
-image_path = '/home/hanwei-1/data/hand_labels_synth/synth2'
+class SimpleModel(nn.Module):
+    def __init__(self):
+        super().__init__()
 
-transforms = get_transforms(do_flip=False, max_zoom=1.1, max_warp=0.01, max_rotate=45)
+        self.linear1 = nn.Linear(1, 5)
+        self.linear2 = nn.Linear(5, 1)
 
+    def forward(self, x):
+        x = self.linear1(x)
+        x = self.linear2(x)
 
-def get_y_func(x):
-    pre, ext = os.path.splitext(x)
-    hand_data_out = []
-    pre = pre.replace('synth2', 'synth2_json')
-    hand_data = json.load(open(pre + '.json'))
-    for i in range(21):
-        hand_tem_xy = hand_data['hand_pts'][i][:2]
-        hand_tem_xy.reverse()
-        hand_data_out.append(hand_tem_xy)
-    return Tensor(hand_data_out)
+        return x
 
 
-data = (PointsItemList.from_folder(path=image_path, extensions=['.jpg'], presort=True)
-        .split_by_rand_pct()
-        .label_from_func(get_y_func)
-        .transform(transforms, size=368, tfm_y=True, remove_out=False,
-                   padding_mode='border', resize_method=ResizeMethod.PAD)
-        .databunch(bs=8)
-        .normalize(imagenet_stats))
+def generate_data(size):
+    x = np.random.uniform(size=(size, 1))
+    y = x * 2.0
+    return torch.FloatTensor(x), torch.FloatTensor(y)
 
 
-class MSELossFlat(nn.MSELoss):
-    def forward(self, input:Tensor, target:Tensor):
-     return super().forward(input.view(-1), target.view(-1))
+train_x, train_y = generate_data(1000)
+val_x, val_y = generate_data(100)
 
+train_ds = TensorDataset(train_x, train_y)
+val_ds = TensorDataset(val_x, val_y)
 
-mse_loss_flat = MSELossFlat()
+train_dl = DataLoader(train_ds, batch_size=8)
+val_dl = DataLoader(val_ds, batch_size=8)
 
+data_bunch = DataBunch(train_dl, val_dl)
 
-class L2Loss(torch.nn.Module):
-    def __init__(self, batch_size):
-        super(L2Loss, self).__init__()
-        self.batch_size = batch_size
+model = handpose_model()
+learn = Learner(data_bunch, model, loss_func=F.mse_loss)
+learn.fit_one_cycle(1)
 
-    def forward(self, x: Variable, y: Variable, weights: Variable = None):
-        if weights is not None:
-            val = (x-y) * weights[:x.data.shape[0], :, :, :] # Slice by shape[n,..] for batch size (last batch < batch_size)
-        else:
-            val = x-y
-        l = torch.sum(val ** 2) / self.batch_size / 2
-        return l
-
-
-l2loss = L2Loss(batch_size=8)
-
-net = handpose_model()
-
-
-learn = Learner(data, net, loss_func=l2loss)
-learn.fit_one_cycle(cyc_len=5, max_lr=1e-4)
