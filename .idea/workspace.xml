@@ -2,13 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b124daab-2274-45a3-a0a1-32834de88550" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Test_debug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img_show.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp/img_show.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nettest.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp/nettest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/original_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp/original_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vision_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp/vision_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/julym.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pytorch-classification.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/remote-mappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/events.out.tfevents.1564560593.hanwei-Super-Server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/events.out.tfevents.1564560750.hanwei-Super-Server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger/events.out.tfevents.1564560903.hanwei-Super-Server" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Push.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ResNet34-1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/ResNet34-2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/VGG19-1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/VGG19-2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/densenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/dpn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/efficientnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/googlenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/lenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/mobilenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/mobilenetv2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/pnasnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/preact_resnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/resnet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/resnet_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/resnext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/senet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shufflenet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/shufflenetv2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/vgg.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/vgg_test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/data_count.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/data_presess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/draw_roi_label.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/Test_debug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/img_show.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/nettest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/original_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/vision_main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/cat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/flop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_conv1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_conv2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_pool1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_pool2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_relu1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_relu2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/net.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/net_params.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/net_params_72p.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/visual.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/visual_all_feature.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/visual_featuremaps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/visual_network.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/visualzation/visual_weights.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +175,7 @@
     <session id="950453314">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
@@ -269,7 +325,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1912" />
     <option name="y" value="-200" />
     <option name="width" value="1936" />
@@ -608,8 +664,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-200" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="1912" y="-200" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
