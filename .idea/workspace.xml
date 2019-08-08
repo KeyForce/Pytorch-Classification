@@ -2,69 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b124daab-2274-45a3-a0a1-32834de88550" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/julym.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pytorch-classification.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/remote-mappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/events.out.tfevents.1564560593.hanwei-Super-Server" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/events.out.tfevents.1564560750.hanwei-Super-Server" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logger/events.out.tfevents.1564560903.hanwei-Super-Server" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Push.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ResNet34-1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ResNet34-2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/VGG19-1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/VGG19-2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/densenet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/dpn.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/efficientnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/googlenet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/lenet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mobilenet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/mobilenetv2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/pnasnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/preact_resnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/resnet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/resnet_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/resnext.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/senet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/shufflenet.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/shufflenetv2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/vgg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/vgg_test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data_count.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/data_presess.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/preprocessing/draw_roi_label.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/Test_debug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/img_show.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/nettest.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/original_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/vision_main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/cat.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/flop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_conv1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_conv2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_pool1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_pool2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_relu1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/heatmap/f1_relu2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/net.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/net_params.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/net_params_72p.pkl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/visual.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/visual_all_feature.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/visual_featuremaps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/visual_network.ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/visualzation/visual_weights.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/preprocessing/labelme2coco.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/temp/gen_heatmap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/Test_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Test_debug.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,6 +34,7 @@
     <SUITE FILE_PATH="coverage/pytorch_classification$pytest_for_main_test.coverage" NAME="pytest for main.test Coverage Results" MODIFIED="1563849209185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch_classification$vision_main.coverage" NAME="vision_main Coverage Results" MODIFIED="1564632164805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch_classification$visual_all_feature.coverage" NAME="visual_all_feature Coverage Results" MODIFIED="1564711126235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualzation" />
+    <SUITE FILE_PATH="coverage/Pytorch_Classification$Test_debug__1_.coverage" NAME="Test_debug (1) Coverage Results" MODIFIED="1565252530972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/temp" />
     <SUITE FILE_PATH="coverage/pytorch_classification$data_presess__1_.coverage" NAME="data_presess (1) Coverage Results" MODIFIED="1563849917523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
     <SUITE FILE_PATH="coverage/pytorch_classification$data_count.coverage" NAME="data_count Coverage Results" MODIFIED="1564371277190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch_classification$resnet_test.coverage" NAME="resnet_test Coverage Results" MODIFIED="1564836501288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
@@ -175,71 +117,74 @@
     <session id="950453314">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="1" />
+          <entry key="ipynb" value="2" />
           <entry key="md" value="1" />
           <entry key="png" value="6" />
-          <entry key="py" value="22" />
+          <entry key="py" value="38" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="IPNB" value="2" />
           <entry key="Image" value="6" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="22" />
+          <entry key="Python" value="38" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="24" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="400">
-                <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp/vision_main.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+        <entry file="file://$PROJECT_DIR$/temp/Test_debug.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3600">
-              <caret line="154" column="36" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="36" />
+            <state relative-caret-position="200">
+              <caret line="116" column="50" selection-start-line="116" selection-start-column="50" selection-end-line="116" selection-end-column="50" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#24#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/temp/gen_heatmap.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="697">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/densenet.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -272,6 +217,8 @@
       <find>THEMES</find>
       <find>label_from_func</find>
       <find>nn.Sequential(</find>
+      <find>l2</find>
+      <find>mobilenet_v2</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -316,6 +263,10 @@
         <option value="$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/nn/modules/nettest.py" />
         <option value="$PROJECT_DIR$/nettest.py" />
         <option value="$PROJECT_DIR$/Test_debug.py" />
+        <option value="$PROJECT_DIR$/preprocessing/labelme2coco.py" />
+        <option value="&lt;5a068f81-b4e5-4c25-8cd5-6b456b29a427&gt;/home/hanwei-1/data/Untitled-Copy1.ipynb" />
+        <option value="$PROJECT_DIR$/temp/Test_debug.py" />
+        <option value="$PROJECT_DIR$/temp/gen_heatmap.py" />
       </list>
     </option>
   </component>
@@ -366,7 +317,7 @@
             <path>
               <item name="Pytorch-Classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pytorch-Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -383,7 +334,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="J:/Project Station/mmdetection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hand-Keypoint-Estimation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -414,7 +365,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Test_debug">
+  <component name="RunManager" selected="Python.Test_debug (1)">
+    <configuration name="Test_debug (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytorch-classification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/temp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/temp/Test_debug.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Test_debug" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pytorch-classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -503,28 +476,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="resnet_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pytorch-classification" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/models" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/models/resnet_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="pytest in original_main.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="pytorch-classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -544,18 +495,18 @@
     <list>
       <item itemvalue="Python tests.pytest in original_main.py" />
       <item itemvalue="Python.Test_debug" />
-      <item itemvalue="Python.resnet_test" />
       <item itemvalue="Python.img_show" />
       <item itemvalue="Python.nettest" />
       <item itemvalue="Python.nettest (1)" />
+      <item itemvalue="Python.Test_debug (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Test_debug (1)" />
         <item itemvalue="Python.Test_debug" />
         <item itemvalue="Python.nettest (1)" />
         <item itemvalue="Python.nettest" />
         <item itemvalue="Python.img_show" />
-        <item itemvalue="Python.resnet_test" />
       </list>
     </recent_temporary>
   </component>
@@ -619,7 +570,14 @@
       <option name="project" value="LOCAL" />
       <updated>1564823979006</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change">
+      <created>1565225905995</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1565225905995</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -666,18 +624,18 @@
   <component name="ToolWindowManager">
     <frame x="1912" y="-200" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13166311" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13272922" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32887402" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.26421404" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4760312" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3567447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32887402" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32998884" />
-      <window_info anchor="bottom" id="File Transfer" order="8" visible="true" weight="0.14827202" />
+      <window_info anchor="bottom" id="File Transfer" order="8" weight="0.14827202" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32887402" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.18708241" />
@@ -687,7 +645,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Remote Host" order="3" visible="true" weight="0.18390192" />
+      <window_info anchor="right" id="Remote Host" order="3" visible="true" weight="0.18390192" />
       <window_info anchor="right" id="SciView" order="4" weight="0.17537314" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -808,77 +766,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/temp/Test_debug.py</url>
-          <line>148</line>
-          <option name="timeStamp" value="89" />
+          <line>145</line>
+          <option name="timeStamp" value="90" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/temp/Test_debug.py</url>
-          <line>145</line>
-          <option name="timeStamp" value="90" />
+          <line>149</line>
+          <option name="timeStamp" value="92" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/nn/modules/batchnorm.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2836">
-          <caret line="249" selection-start-line="249" selection-end-line="249" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/layers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="650">
-          <caret line="26" column="8" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/tensorwatch/model_graph/torchstat_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/nn/functional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34800">
-          <caret line="1405" selection-start-line="1405" selection-end-line="1405" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/resnet_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="163" column="9" selection-start-line="163" selection-start-column="9" selection-end-line="163" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/visualzation/visual_network.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/tensorwatch/model_graph/hiddenlayer/graph.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/data_block.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="295" selection-start-line="295" selection-end-line="295" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/tensorwatch/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="597">
@@ -911,13 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3325">
           <caret line="134" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/vision/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6775">
-          <caret line="278" selection-start-line="278" selection-end-line="278" />
         </state>
       </provider>
     </entry>
@@ -1002,24 +894,10 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/nn/modules/nettest.py" />
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/basic_train.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9475">
-          <caret line="387" column="8" selection-start-line="387" selection-start-column="8" selection-end-line="387" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/nn/modules/conv.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8250">
           <caret line="337" selection-start-line="337" selection-end-line="337" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1055,16 +933,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
           <caret line="112" column="40" lean-forward="true" selection-start-line="112" selection-start-column="40" selection-end-line="112" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/Test_debug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="98" column="58" selection-start-line="98" selection-start-column="57" selection-end-line="98" selection-end-column="58" />
-          <folding>
-            <element signature="e#24#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,7 +982,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="400">
-            <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -1126,18 +994,111 @@
     <entry file="file://$PROJECT_DIR$/temp/vision_main.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/models/densenet.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/nn/modules/loss.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="154" column="36" selection-start-line="154" selection-start-column="36" selection-end-line="154" selection-end-column="36" />
+        <state relative-caret-position="21150">
+          <caret line="933" column="8" selection-start-line="933" selection-start-column="8" selection-end-line="933" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/densenet.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/preprocessing/labelme2coco.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/vision/image.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="247" column="8" selection-start-line="247" selection-start-column="8" selection-end-line="247" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/vision/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="404" column="23" selection-start-line="404" selection-start-column="23" selection-end-line="404" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/vision/cyclegan.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3475">
+          <caret line="142" column="31" selection-start-line="142" selection-start-column="31" selection-end-line="142" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/-703477092/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="1203" column="76" lean-forward="true" selection-start-line="1203" selection-start-column="76" selection-end-line="1203" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/basic_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="148" column="8" selection-start-line="148" selection-start-column="8" selection-end-line="148" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/callbacks/loss_metrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="7" column="74" lean-forward="true" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/mobilenet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2529">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/Test_debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="116" column="50" selection-start-line="116" selection-start-column="50" selection-end-line="116" selection-end-column="50" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/gen_heatmap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -156,5 +156,5 @@ l2loss = L2Loss(batch_size=8)
 net = handpose_model()
 
 
-learn = Learner(data, net, loss_func=l2loss)
+learn = Learner(data, net, loss_func=l1loss)
 learn.fit_one_cycle(cyc_len=5, max_lr=1e-4)

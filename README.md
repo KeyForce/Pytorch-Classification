@@ -1,4 +1,8 @@
-# 1.Pytorch Cifar 10 网络、卷积、计算量可视化
+# Pytorch-Classification
+
+一个完整的项目结构:smile:，学习如何修改网络结构，调参。
+
+## Pytorch Cifar 10 网络、卷积、计算量可视化
 
 * 网络结构
 
