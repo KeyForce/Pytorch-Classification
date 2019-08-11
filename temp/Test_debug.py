@@ -10,6 +10,14 @@ from fastai import *
 import os
 os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 
+class Reshape(nn.Module):
+    def __init__(self, *args):
+        super(Reshape, self).__init__()
+        self.shape = args
+
+    def forward(self, x):
+        return x.view(self.shape)
+
 def make_layers(block, no_relu_layers):
     layers = []
     for layer_name, v in block.items():
@@ -86,6 +94,17 @@ class handpose_model(nn.Module):
         self.model4 = blocks['block4']
         self.model5 = blocks['block5']
         self.model6 = blocks['block6']
+        self.head_reg = nn.Sequential(
+            Flatten(),
+            nn.ReLU(),
+            nn.Dropout(0.5),
+            nn.Linear(22*46*46, 256),
+            nn.ReLU(),
+            nn.Dropout(0.5),
+            nn.Linear(256, 42),
+            Reshape(-1, 21, 2),
+            nn.Tanh())
+        self._initialize_weights()
 
     def forward(self, x):
         out1_0 = self.model1_0(x)
@@ -100,18 +119,32 @@ class handpose_model(nn.Module):
         out_stage5 = self.model5(concat_stage5)
         concat_stage6 = torch.cat([out_stage5, out1_0], 1)
         out_stage6 = self.model6(concat_stage6)
-        return out_stage6
+        x = self.head_reg(out_stage6)
+        return x
+
+    def _initialize_weights(self):
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d):
+                nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+                if m.bias is not None:
+                    nn.init.constant_(m.bias, 0)
+            elif isinstance(m, nn.BatchNorm2d):
+                nn.init.constant_(m.weight, 1)
+                nn.init.constant_(m.bias, 0)
+            elif isinstance(m, nn.Linear):
+                nn.init.normal_(m.weight, 0, 0.01)
+                nn.init.constant_(m.bias, 0)
 
 
-image_path = '/home/hanwei-1/data/hand_labels_synth/synth2'
+image_path = '/home/hanwei-1/data/hand_labels_synth/synth2_3'
 
-transforms = get_transforms(do_flip=False, max_zoom=1.1, max_warp=0.01, max_rotate=45)
 
+transforms = get_transforms(do_flip=False, max_zoom=1.05, max_warp=0.01,max_rotate=3, p_lighting=1)
 
 def get_y_func(x):
     pre, ext = os.path.splitext(x)
     hand_data_out = []
-    pre = pre.replace('synth2', 'synth2_json')
+    # pre = pre.replace('synth2', 'synth2_json')
     hand_data = json.load(open(pre + '.json'))
     for i in range(21):
         hand_tem_xy = hand_data['hand_pts'][i][:2]
@@ -125,7 +158,7 @@ data = (PointsItemList.from_folder(path=image_path, extensions=['.jpg'], presort
         .label_from_func(get_y_func)
         .transform(transforms, size=368, tfm_y=True, remove_out=False,
                    padding_mode='border', resize_method=ResizeMethod.PAD)
-        .databunch(bs=8)
+        .databunch(bs=32)
         .normalize(imagenet_stats))
 
 
@@ -156,5 +189,10 @@ l2loss = L2Loss(batch_size=8)
 net = handpose_model()
 
 
-learn = Learner(data, net, loss_func=l1loss)
-learn.fit_one_cycle(cyc_len=5, max_lr=1e-4)
+learn = Learner(data, net, loss_func=mse_loss_flat)
+learn.fit_one_cycle(cyc_len=200, max_lr=0.0001)
+learn.recorder.plot()
+plt.show()
+learn.lr_find()
+learn.recorder.plot()
+plt.show()
