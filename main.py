@@ -1,19 +1,21 @@
 import argparse
 import os
-
+from sklearn.metrics import confusion_matrix
 import torch.backends.cudnn as cudnn
 import torch.optim as optim
 import torchvision.transforms as transforms
 from PIL import Image
 from torch.utils.data import Dataset, DataLoader
-from torchvision.models.vgg import *
+# from torchvision.models.vgg import *
+from models.vgg_test import *
 from models import *
 from utils import progress_bar
+from visualzation.confusion_matrix import plot_confusion_matrix
 
 # 参数解析
 parser = argparse.ArgumentParser(description='PyTorch Training')
 parser.add_argument('--lr', default=0.1, type=float, help='learning rate')
-parser.add_argument('--resume', '-r', action='store_true', help='resume from checkpoint')
+parser.add_argument('--resume', '-r', action='store_true', help='resume from checkpoint', default=False)
 args = parser.parse_args()
 
 # 设置GPU
@@ -22,7 +24,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 # 参数
 best_acc = 0  # best test accuracy
 start_epoch = 0  # start from epoch 0 or last checkpoint epoch
-classes = ('benign', 'suspicious')
+classes = ('0', '1')  # 必须是数值型
 
 # 定义自己的数据集 需要设计自己的解析代码
 class MyDataset(Dataset):
@@ -56,13 +58,13 @@ class MyDataset(Dataset):
 # Data
 print('==> Preparing data..')
 transform_train = transforms.Compose([
+    transforms.CenterCrop(96),
     transforms.ToTensor(),
-    transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
 ])
 
 transform_test = transforms.Compose([
+    transforms.CenterCrop(96),
     transforms.ToTensor(),
-    transforms.Normalize((0.4914, 0.4822, 0.4465), (0.2023, 0.1994, 0.2010)),
 ])
 
 root = '/home/hanwei-1/data/usg/cvted1-3/ROI'
@@ -71,9 +73,9 @@ root = '/home/hanwei-1/data/usg/cvted1-3/ROI'
 train_data = MyDataset(root, '/train_aug.txt', transform=transform_train)
 test_data = MyDataset(root, '/test_aug.txt', transform=transform_test)
 
-# 然后就是调用DataLoader和刚刚创建的数据集，来创建dataloader，这里提一句，loader的长度是有多少个batch，所以和batch_size有关
-trainloader = DataLoader(dataset=train_data, batch_size=8, shuffle=True)
-testloader = DataLoader(dataset=test_data, batch_size=8)
+# 然后就是调用DataLoader和刚刚创建的数据集，来创建dataloader，loader的长度是有多少个batch，所以和batch_size有关
+trainloader = DataLoader(dataset=train_data, batch_size=2, shuffle=True)
+testloader = DataLoader(dataset=test_data, batch_size=2)
 
 
 
@@ -94,8 +96,8 @@ print('==> Building model..')
 # net = EfficientNetB0()
 # net = vgg19_bn(num_classes=2)
 # net = VGG('VGG19', 2)
-# net = vgg19_bn(num_classes=2)
-net = vgg19_bn(num_classes=2, init_weights=True, pretrained=True)
+net = vgg19_bn(num_classes=2)
+# net = vgg19_bn(num_classes=2, init_weights=True, pretrained=False)
 net = net.to(device)
 if device == 'cuda':
     net = torch.nn.DataParallel(net)
@@ -111,12 +113,12 @@ if args.resume:
     start_epoch = checkpoint['epoch']
 
 criterion = nn.CrossEntropyLoss()
-optimizer = optim.SGD(net.parameters(), lr=args.lr, momentum=0.9, weight_decay=5e-4)
-
+# optimizer = optim.SGD(net.parameters(), lr=args.lr, momentum=0.9, weight_decay=5e-4)
+optimizer = optim.Adam(net.parameters(), lr=args.lr)
 
 # Training
 def train(epoch):
-    print('\nEpoch: %d' % epoch)
+    # print('\nEpoch: %d' % epoch)
     net.train()
     train_loss = 0
     correct = 0
@@ -144,6 +146,8 @@ def Test(epoch):
     test_loss = 0
     correct = 0
     total = 0
+    cm_targets = []
+    cm_predicted = []
     with torch.no_grad():
         for batch_idx, (inputs, targets) in enumerate(testloader):
             inputs, targets = inputs.to(device), targets.to(device)
@@ -152,12 +156,18 @@ def Test(epoch):
 
             test_loss += loss.item()
             _, predicted = outputs.max(1)
+
+            cm_targets.extend(targets.cpu().numpy())
+            cm_predicted.extend(predicted.cpu().numpy())
+
             total += targets.size(0)
             correct += predicted.eq(targets).sum().item()
 
             progress_bar(batch_idx, len(testloader), 'Loss: %.3f | Acc: %.3f%% (%d/%d)'
                          % (test_loss / (batch_idx + 1), 100. * correct / total, correct, total))
 
+    matrix = confusion_matrix(cm_targets, cm_predicted)
+    plot_confusion_matrix(matrix, classes)
     # Save checkpoint.
     acc = 100. * correct / total
     if acc > best_acc:
@@ -173,7 +183,9 @@ def Test(epoch):
         best_acc = acc
 
 
+
+
 for epoch in range(start_epoch, start_epoch + 10):
-    print(epoch)
+    # print(epoch)
     train(epoch)
     Test(epoch)
