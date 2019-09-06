@@ -68,6 +68,12 @@ transform_train = transforms.Compose([
     # transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
 ])
 
+transform_aaa = transforms.Compose([
+    transforms.CenterCrop(224),
+    transforms.ToTensor(),
+    # transforms.Normalize((0.485, 0.456, 0.406), (0.229, 0.224, 0.225))
+])
+
 transform_test = transforms.Compose([
     transforms.CenterCrop(224),
     transforms.ColorJitter(brightness=0.4, contrast=0.4, saturation=0.4, hue=0.1),
@@ -112,14 +118,26 @@ aug_benign_two = torchvision.datasets.ImageFolder(root='/home/hanwei-1/data/usg/
 aug_benign_three = torchvision.datasets.ImageFolder(root='/home/hanwei-1/data/usg/ROI/Aug/',
                                               transform=transform_benign_three
                                               )
-
-train_data = ConcatDataset([train_data, aug_benign, aug_benign_two, aug_benign_three])
+aug_benign_four = torchvision.datasets.ImageFolder(root='/home/hanwei-1/data/usg/ROI/Aug/',
+                                              transform=transform_benign_three
+                                              )
+aug_benign_five = torchvision.datasets.ImageFolder(root='/home/hanwei-1/data/usg/ROI/Aug/',
+                                              transform=transform_benign_three
+                                              )
+aug_benign_six = torchvision.datasets.ImageFolder(root='/home/hanwei-1/data/usg/ROI/Aug/',
+                                              transform=transform_benign_three
+                                              )
+test_aa = torchvision.datasets.ImageFolder(root='/home/hanwei-1/data/usg/ROI/Aug2/',
+                                              transform=transform_aaa
+                                              )
+train_data = ConcatDataset([train_data, aug_benign, aug_benign_two, aug_benign_three, aug_benign_four, aug_benign_five, aug_benign_six])
 train_test = ConcatDataset([train_data, test_data])
 
 # 然后就是调用DataLoader和刚刚创建的数据集，来创建dataloader，loader的长度是有多少个batch，所以和batch_size有关
 trainloader = DataLoader(dataset=train_data, batch_size=64, shuffle=True)
 testloader = DataLoader(dataset=test_data, batch_size=64)
 train_test_loader = DataLoader(dataset=train_test, batch_size=64, shuffle=True)
+test_aaa = DataLoader(dataset=test_aa, batch_size=64, shuffle=True)
 image = iter(aug_benign)
 
 image, labels = next(image)
@@ -198,7 +216,7 @@ def Test(epoch):
     cm_targets = []
     cm_predicted = []
     with torch.no_grad():
-        for batch_idx, (inputs, targets) in enumerate(train_test_loader):
+        for batch_idx, (inputs, targets) in enumerate(test_aaa):
             inputs, targets = inputs.to(device), targets.to(device)
             outputs = net(inputs)
             loss = criterion(outputs, targets)
@@ -217,6 +235,11 @@ def Test(epoch):
 
     matrix = confusion_matrix(cm_targets, cm_predicted)
     plot_confusion_matrix(matrix, classes_str)
+
+    from pandas_ml import ConfusionMatrix
+    cm = ConfusionMatrix(cm_targets, cm_predicted)
+    cm.print_stats()
+
     # Save checkpoint.
     acc = 100. * correct / total
     if acc > best_acc:
