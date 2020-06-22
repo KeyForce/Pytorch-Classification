@@ -6,17 +6,17 @@
 
 * 网络结构
 
-  ![net](./visualzation/net.png)
+  <div align=center><img src="./visualzation/net.png" alt="unnamed"/></div>
 
 * 输入图片
 
-  ![cat](./visualzation/cat.png)
+  <div align=center><img src="./visualzation/cat.png" alt="unnamed"/></div>
 
 * 权重热力图
 
   **conv1**
 
-  ![f1_conv1](./visualzation/heatmap/f1_conv1.png)
+  <div align=center><img src="./visualzation/heatmap/f1_conv1.png" alt="unnamed"/></div>
 
   **MaxPool1**
 
@@ -42,6 +42,6 @@
 
   ![flop](./visualzation/flop.png)
 
-### 相关包
+## 相关包
 
 pandas-ml

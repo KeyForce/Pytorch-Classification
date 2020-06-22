@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b124daab-2274-45a3-a0a1-32834de88550" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pytorch-classification.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pytorch-classification.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/remote-mappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/remote-mappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Push.sh" beforeDir="false" afterPath="$PROJECT_DIR$/Push.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/Test_debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/temp/Test_debug.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +34,7 @@
     <SUITE FILE_PATH="coverage/pytorch_classification$pytest_in_shufflenet_py.coverage" NAME="pytest in shufflenet.py Coverage Results" MODIFIED="1563518892923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/models" />
     <SUITE FILE_PATH="coverage/pytorch_classification$pytest_for_main_test.coverage" NAME="pytest for main.test Coverage Results" MODIFIED="1563849209185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch_classification$vision_main.coverage" NAME="vision_main Coverage Results" MODIFIED="1564632164805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pytorch_Classification$utils.coverage" NAME="utils Coverage Results" MODIFIED="1569492125717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pytorch_classification$visual_all_feature.coverage" NAME="visual_all_feature Coverage Results" MODIFIED="1564711126235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/visualzation" />
     <SUITE FILE_PATH="coverage/Pytorch_Classification$Test_debug__1_.coverage" NAME="Test_debug (1) Coverage Results" MODIFIED="1565326648484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/temp" />
     <SUITE FILE_PATH="coverage/pytorch_classification$data_presess__1_.coverage" NAME="data_presess (1) Coverage Results" MODIFIED="1563849917523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
@@ -116,22 +119,27 @@
     <session id="950453314">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.11" value="2" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.13" value="2" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="LICENSE" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="ipynb" value="2" />
-          <entry key="md" value="1" />
+          <entry key="md" value="2" />
           <entry key="png" value="6" />
-          <entry key="py" value="85" />
+          <entry key="py" value="87" />
+          <entry key="sh" value="1" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
@@ -139,9 +147,9 @@
         <counts>
           <entry key="IPNB" value="2" />
           <entry key="Image" value="6" />
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="85" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="87" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -158,13 +166,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/temp/Test_debug.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="558">
-              <caret line="193" selection-start-line="193" selection-end-line="193" />
+            <state relative-caret-position="2200">
+              <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Push.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="400">
+                <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LICENSE">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5900">
+              <caret line="263" selection-start-line="263" selection-end-line="263" />
               <folding>
-                <element signature="e#24#35#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,7 +212,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/basic_train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-11412">
+            <state relative-caret-position="3375">
               <caret line="143" column="9" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="13" />
             </state>
           </provider>
@@ -182,7 +221,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/temp/original_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-750">
+            <state>
               <folding>
                 <element signature="e#24#39#0" expanded="true" />
               </folding>
@@ -193,17 +232,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/temp/vision_main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
+            <state relative-caret-position="125">
               <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/detection/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -220,7 +250,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/detection/rpn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3648">
+            <state relative-caret-position="4825">
               <caret line="199" column="6" selection-start-line="199" selection-start-column="6" selection-end-line="199" selection-end-column="6" />
             </state>
           </provider>
@@ -317,10 +347,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="371" />
+    <option name="y" value="127" />
+    <option name="width" value="1440" />
+    <option name="height" value="780" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -355,11 +385,6 @@
               <item name="Pytorch-Classification" type="b2602c69:ProjectViewProjectNode" />
               <item name="Pytorch-Classification" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Pytorch-Classification" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Pytorch-Classification" type="462c0819:PsiDirectoryNode" />
-              <item name="temp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -374,7 +399,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Simple-Obejct-Detection" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Hand-Keypoint-Estimation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -405,7 +430,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Test_debug (1)">
+  <component name="RunManager" selected="Python.utils">
     <configuration name="Test_debug (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="pytorch-classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -443,28 +468,6 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="J:\Main Project\Pytorch-Classification\temp\Test_debug.py" />
       <option name="PARAMETERS" value="CUDA_VISIBLE_DEVICES=3" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="img_show" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pytorch-classification" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="J:\Main Project\Pytorch-Classification\temp\img_show.py" />
-      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -516,6 +519,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="pytorch-classification" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest in original_main.py" type="tests" factoryName="py.test" nameIsGenerated="true">
       <module name="pytorch-classification" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -535,18 +560,18 @@
     <list>
       <item itemvalue="Python tests.pytest in original_main.py" />
       <item itemvalue="Python.Test_debug" />
-      <item itemvalue="Python.img_show" />
       <item itemvalue="Python.nettest" />
       <item itemvalue="Python.nettest (1)" />
       <item itemvalue="Python.Test_debug (1)" />
+      <item itemvalue="Python.utils" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.utils" />
         <item itemvalue="Python.Test_debug (1)" />
         <item itemvalue="Python.Test_debug" />
         <item itemvalue="Python.nettest (1)" />
         <item itemvalue="Python.nettest" />
-        <item itemvalue="Python.img_show" />
       </list>
     </recent_temporary>
   </component>
@@ -664,12 +689,12 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28144988" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23987207" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.32887402" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.6298774" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.26755852" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3567447" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -678,7 +703,7 @@
       <window_info anchor="bottom" id="File Transfer" order="8" weight="0.14827202" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32887402" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053304" side_tool="true" weight="0.18708241" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="11" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.15719064" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32887402" />
       <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Concurrent Activities Diagram" order="14" weight="0.26726058" />
@@ -808,20 +833,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/vision/models/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/-703477092/tokenize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="446" selection-start-line="446" selection-end-line="446" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/nn/modules/nettest.py" />
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torch/nn/modules/conv.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -899,19 +910,6 @@
           <caret line="5" column="57" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="67" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="400">
-            <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/models/densenet.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1024,16 +1022,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2450">
-          <caret line="179" lean-forward="true" selection-start-line="179" selection-end-line="179" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/temp/nettest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1399">
@@ -1056,13 +1044,7 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/ops/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/keras_applications/vgg16.py">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1070,9 +1052,56 @@
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/keras_applications/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/temp/Test_debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/detection/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="94" column="33" selection-start-line="94" selection-start-column="33" selection-end-line="94" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Push.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="400">
+            <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/basic_train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3375">
+          <caret line="143" column="9" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/temp/original_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-750">
+        <state>
           <folding>
             <element signature="e#24#39#0" expanded="true" />
           </folding>
@@ -1081,15 +1110,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/temp/vision_main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
+        <state relative-caret-position="125">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/detection/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1102,24 +1124,17 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/torchvision/models/detection/rpn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3648">
+        <state relative-caret-position="4825">
           <caret line="199" column="6" selection-start-line="199" selection-start-column="6" selection-end-line="199" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/remote_sources/-1576572909/565266048/fastai/basic_train.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11412">
-          <caret line="143" column="9" selection-start-line="143" selection-start-column="6" selection-end-line="143" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/temp/Test_debug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="193" selection-start-line="193" selection-end-line="193" />
+        <state relative-caret-position="5900">
+          <caret line="263" selection-start-line="263" selection-end-line="263" />
           <folding>
-            <element signature="e#24#35#0" expanded="true" />
+            <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
